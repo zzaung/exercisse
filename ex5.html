@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exe5</title>
+	<script type="text/javascript">
+	function calculate() {
+		var parent='';
+		if(wins.checked){
+				 parent=3;
+			}else if (draws.checked){
+				 parent=1;
+			}else  if (losses.checked){
+				 parent=0;
+			}
+			console.log(parent);
+			document.myform.mark.value=parent;
+		}
+	</script>
+</head>
+<body>
+	<form name="myform">
+	<input type="radio" name="match" value="wins" id="wins">
+	<label for="wins">Wins</label>
+	<input type="radio" name="match" value="draws" id="draws">
+	<label for="draws">Draws</label>
+	<input type="radio" name="match" value="losses" id="losses">
+	<label for="losses">Losses</label><br>
+	<input type="button" value="Calculate" onclick="calculate()"><br>
+	Mark:<input type="number" name="mark">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+.container{
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.roundimg{
+	float: left;
+}
+.roundimg img{
+	border-radius: 50%;
+	
+	margin-right: 100px;
+	width: 100px;
+	height: 100px;
+	padding-top: 10px;
+}
+
+.tayhatmaker{
+	float: left;
+	padding-right: 20px;
+}
+
+.imgdiv img{
+	float: left;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	
+}
+.clear{
+	clear: both;
+}
+
+.imgdiv{
+	margin-left: 150px;
+	margin-top: 20px;
+
+}
+.rounddiv{
+	margin-left: 350px;
+
+}
+.editbtn{
+	margin-top: 17px;
+}
+.followers{
+	padding-right: 20px;
+}
